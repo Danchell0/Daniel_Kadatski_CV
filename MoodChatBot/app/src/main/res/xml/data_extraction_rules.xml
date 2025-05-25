@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- TODO: Implement an appropriate cloud backup strategy for your app.
+             Learn more at https://developer.android.com/guide/topics/data/autobackup
+        -->
+        <include domain="sharedpref" />
+        <exclude domain="database" />
+        <exclude domain="file" />
+        <exclude domain="root" />
+    </cloud-backup>
+    <device-transfer>
+        <!-- TODO: Implement an appropriate device transfer strategy for your app.
+             Learn more at https://developer.android.com/guide/topics/data/autobackup
+        -->
+        <include domain="sharedpref" />
+        <exclude domain="database" />
+        <exclude domain="file" />
+        <exclude domain="root" />
+    </device-transfer>
+</data-extraction-rules>
